@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Phase 3: TF-IDF hybrid similarity clustering upgrade (calibrated, demo determinism preserved)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: Health-score trend history (seeded 6 snapshots + updated on save + line chart on Product Detail)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: Automated volume-spike alerts (week-over-week >=3 & >1.3x, deduped 24h)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: PWA notifications (Settings permission toggle + local notification on alerts/import + SW click handler)",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: CSV complaint import (papaparse dialog + background job + batch Claude analysis + progress polling) — verified 2/2 rows via curl",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 3: End-to-end testing via testing_agent_v3 + fix issues",
+    "status": "in_progress"
+  }
+]

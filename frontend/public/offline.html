@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ProductPulse AI — Offline</title>
+<style>
+  body { margin:0; font-family: 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif; background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+  .card { background:#ffffff; border:1px solid #e2e8f0; border-radius:16px; padding:40px 32px; max-width:400px; text-align:center; box-shadow:0 10px 24px rgba(15,23,42,0.08); margin:16px; }
+  .icon { width:56px; height:56px; border-radius:14px; background:#1d4ed8; display:inline-flex; align-items:center; justify-content:center; margin-bottom:16px; }
+  h1 { font-size:20px; margin:0 0 8px; }
+  p { color:#64748b; font-size:14px; line-height:1.6; margin:0 0 20px; }
+  button { background:#1d4ed8; color:#fff; border:none; border-radius:10px; padding:12px 24px; font-size:14px; font-weight:600; cursor:pointer; font-family:inherit; }
+  button:hover { background:#1e40af; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    </div>
+    <h1>You're offline</h1>
+    <p>ProductPulse AI needs a connection to analyze complaints and load your product intelligence. Reconnect and try again.</p>
+    <button onclick="window.location.reload()">Retry connection</button>
+  </div>
+</body>
+</html>
