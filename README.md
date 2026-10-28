@@ -4,6 +4,19 @@ ProductPulse helps ecommerce teams turn customer complaints into structured issu
 
 **Stack:** FastAPI, Python, MongoDB, React, Tailwind, and the official Anthropic SDK.
 
+## Analysis flow
+
+```mermaid
+flowchart TD
+  A["Customer complaint"] --> B["Analysis engine"]
+  B --> C["Configured model"]
+  B --> D["Deterministic local fallback"]
+  C --> E["Structured output validation"]
+  D --> E
+  E --> F["Saved insight and related complaints"]
+  F --> G["Recommendations and product-health view"]
+```
+
 ## Engineering highlights
 
 - One analysis schema supports both model-assisted analysis and a deterministic local fallback.
