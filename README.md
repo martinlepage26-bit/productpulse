@@ -7,14 +7,13 @@ ProductPulse helps ecommerce teams turn customer complaints into structured issu
 ## Analysis flow
 
 ```mermaid
-flowchart TD
-  A["Customer complaint"] --> B["Analysis engine"]
-  B --> C["Configured model"]
-  B --> D["Deterministic local fallback"]
-  C --> E["Structured output validation"]
-  D --> E
-  E --> F["Saved insight and related complaints"]
-  F --> G["Recommendations and product-health view"]
+flowchart LR
+  A["Complaint"] --> B["Configured model"]
+  A --> C["Local fallback"]
+  B --> D["Validated output"]
+  C --> D
+  D --> E["Saved insight and grouping"]
+  E --> F["Recommendations and health view"]
 ```
 
 ## Engineering highlights
